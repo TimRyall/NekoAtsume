@@ -1,5 +1,6 @@
 import pandas as pd
-raw_data = pd.read_excel(r'')
+url = 'https://github.com/TimRyall/NekoAtsume/blob/main/Raw_Data_NA(u_petite).xlsx'
+raw_data = pd.read_excel(url,index_col=0,parse_dates=[0])
 
 
 # variables; leave black if you don't want considered
